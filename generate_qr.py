@@ -1,7 +1,7 @@
 import qrcode
 
 # Replace with your local server IP address
-local_server_url = " https://95e3-2402-a00-405-ab3b-d9ba-ebfb-495c-9f26.ngrok-free.app"
+local_server_url = "https://b1b5-2401-4900-8898-f458-5150-5976-b58c-8b80.ngrok-free.app"
 
 # Generate QR code
 qr = qrcode.QRCode(

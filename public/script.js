@@ -12,7 +12,7 @@ document.getElementById('accessSensorsButton').addEventListener('click', accessS
 document.getElementById('saveButton').addEventListener('click', saveData);
 
 function startCamera() {
-  navigator.mediaDevices.getUserMedia({ video: true })
+  navigator.mediaDevices.getUserMedia({ video: { facingMode: { exact: "environment" } } })
     .then(function(s) {
       stream = s;
       const video = document.getElementById('video');
